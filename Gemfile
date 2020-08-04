@@ -29,6 +29,12 @@ gem 'jbuilder', '~> 2.5'
 
 # authentication
 gem "devise"
+# HAML
+gem "haml-rails"
+# gem bootstrap
+gem 'bootstrap-sass'
+# matearial design tem
+gem 'bootstrap-material-design'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
