@@ -56,6 +56,9 @@ $light-blue: #3498DB;
   padding: 0;
 }
 
+.top-space{
+  margin-top:1em;
+}
 /*alignments*/
 .no-float{
   float: none !important;
@@ -65,7 +68,22 @@ $light-blue: #3498DB;
   display:inline-block;
   vertical-align: middle;
 }
+.absolute{
+  position: absolute;
+}
 /*sizes*/
+.small{
+  font-size:17px;
+}
+.medium{
+  font-size:2em;
+}
+.big{
+  font-size: 3em;
+}
+.bigger{
+  font-size:4em;
+}
 .utra-big{
   font-size:7em;
 }
