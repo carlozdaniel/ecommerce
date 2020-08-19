@@ -49,15 +49,20 @@ $light-blue: #3498DB;
   color: $other-grey;
 }
 /*Paddings*/
+.large-padding{
+  padding: 5px 10px;
+}
 .big-padding{
   padding:2em;
 }
 .no-padding{
   padding: 0;
 }
-
 .top-space{
   margin-top:1em;
+}
+.bottom-space{
+  margin-bottom: 3em;
 }
 /*alignments*/
 .no-float{
