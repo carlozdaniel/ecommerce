@@ -35,7 +35,8 @@ gem "haml-rails"
 gem 'bootstrap-sass'
 # matearial design tem
 gem 'bootstrap-material-design'
-
+#paperclip to upload image
+gem 'paperclip'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
