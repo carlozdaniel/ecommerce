@@ -16,11 +16,18 @@ RSpec.describe "/products", type: :request do
   # Product. As you add validations to Product, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    
+    {
+      name: "hola mundo",
+      user: FactoryGirl.create(:user),
+      precing: 1.0
+    }
   }
 
   let(:invalid_attributes) {
-    skip("Add a hash of attributes invalid for your model")
+    {
+      name: "",
+      precing: 0
+    }
   }
 
   describe "GET /index" do
