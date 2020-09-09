@@ -4,7 +4,7 @@ RSpec.describe "products/edit", type: :view do
   before(:each) do
     @product = assign(:product, Product.create!(
       name: "MyString",
-      precing: "9.99",
+      pricing: "9.99",
       description: "MyText",
       user: nil
     ))
@@ -17,7 +17,7 @@ RSpec.describe "products/edit", type: :view do
 
       assert_select "input[name=?]", "product[name]"
 
-      assert_select "input[name=?]", "product[precing]"
+      assert_select "input[name=?]", "product[pricing]"
 
       assert_select "textarea[name=?]", "product[description]"
 

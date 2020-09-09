@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2020_08_19_210736) do
 
   create_table "products", force: :cascade do |t|
     t.string "name"
-    t.decimal "precing", precision: 10, scale: 2
+    t.decimal "pricing", precision: 10, scale: 2
     t.text "description"
     t.integer "user_id"
     t.string "avatar_file_name"

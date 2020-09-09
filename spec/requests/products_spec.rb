@@ -18,14 +18,14 @@ RSpec.describe "/products", type: :request do
     {
       name: "hola mundo",
       user: FactoryGirl.create(:user), #the error is due to the factory not bringing the data right
-      precing: 1.0
+      pricing: 1.0
     }
   }
 
   let(:invalid_attributes) {
     {
       name: "",
-      precing:  0
+      pricing:  0
     }
   }
 

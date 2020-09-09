@@ -5,13 +5,13 @@ RSpec.describe "products/index", type: :view do
     assign(:products, [
       Product.create!(
         name: "Name",
-        precing: "9.99",
+        pricing: "9.99",
         description: "MyText",
         user: nil
       ),
       Product.create!(
         name: "Name",
-        precing: "9.99",
+        pricing: "9.99",
         description: "MyText",
         user: nil
       )

@@ -4,7 +4,7 @@
   %thead
     %tr
       %th Name
-      %th Precing
+      %th pricing
       %th Description
       %th User
       %th
@@ -15,7 +15,7 @@
     - @products.each do |product|
       %tr
         %td= product.name
-        %td= product.precing
+        %td= product.pricing
         %td= product.description
         %td= product.user
         %td= link_to 'Show', product
